@@ -18,7 +18,7 @@ export default function Home() {
         <Profile {...userInfo.about} />
       </section>
       <section className="grid grid-cols-6 gap-4 w-full">
-        <div className="col-span-4 p-5 space-y-3">
+        <div className="col-span-6 md:col-span-4 p-5 space-y-3">
           <CoverLetter>
             {userInfo.coverLetter.text}
           </CoverLetter>
@@ -27,7 +27,7 @@ export default function Home() {
           <Education {...userInfo.education.school}/>
           <Languages {...userInfo.language}/>
         </div>
-        <div className="col-span-2 p-5 space-y-3">
+        <div className="col-span-6 md:col-span-2 p-5 space-y-3">
           <Details {...userInfo.details}/>
           <Skills skills={userInfo.skills} />
         </div>
