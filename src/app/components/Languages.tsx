@@ -1,4 +1,4 @@
-import { BuildingLibraryIcon, LanguageIcon, MapPinIcon } from "@heroicons/react/16/solid";
+import { LanguageIcon } from "@heroicons/react/16/solid";
 
 type LanguagesProps = {
   name: string;

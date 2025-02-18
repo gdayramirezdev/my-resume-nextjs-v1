@@ -1,4 +1,4 @@
-import { BuildingLibraryIcon, MapPinIcon } from "@heroicons/react/16/solid";
+import { BuildingLibraryIcon } from "@heroicons/react/16/solid";
 
 type EducationProps = {
   name: string;

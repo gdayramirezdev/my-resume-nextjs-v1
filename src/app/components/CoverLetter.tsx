@@ -1,5 +1,4 @@
 import { UserIcon } from "@heroicons/react/16/solid";
-import Image from "next/image";
 
 type CoverLetterProps = {
   children: string;
