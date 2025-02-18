@@ -10,7 +10,7 @@ type SkillsProps = {
 export function ProgressBar(props: Skill) {
   const { name, average} = props;
 
-  const classnames: any = {
+  const classnames: {[x: number]: string} = {
     0: '',
     25: 'w-1/4',
     50: 'w-1/2',
@@ -18,7 +18,7 @@ export function ProgressBar(props: Skill) {
     100: 'w-full'
   }
 
-  const classname: string = classnames[average];
+  const classname = classnames[average];
 
   return (
     <div className="flex flex-col items-start space-y-2">
