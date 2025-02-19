@@ -20,7 +20,7 @@ export function EmploymentHistoryItem(props: Experience) {
 
   return (
     <div className="flex flex-col space-y-2">
-      <h4 className="text-sm">{role} at {companyName}, {city}</h4>
+      <h4 className="text-sm">{role} en {companyName}, {city}</h4>
       <span className="text-xs text-gray-500">{startedDate} - {finishedDate}</span>
       <ul className="list-outside ml-10">
         {activitiesList}
@@ -38,7 +38,7 @@ export function EmploymentHistory(props: EmploymentHistoryProps) {
     <>
       <div className="flex flex-row items-center space-x-2">
         <BuildingOffice2Icon className="h-4 w-4" />
-        <span className="text-lg font-semibold">Employment history</span>
+        <span className="text-lg font-semibold">Historia laboral</span>
       </div>
       {experienceList}
     </>

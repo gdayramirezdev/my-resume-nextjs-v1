@@ -39,7 +39,7 @@ export function Skills(props: SkillsProps) {
   return (
     <>
       <div className="flex flex-row items-center space-x-2">
-        <span className="text-lg font-semibold">Skills</span>
+        <span className="text-lg font-semibold">Habilidades</span>
       </div>
       {skillsList}
     </>

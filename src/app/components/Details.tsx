@@ -13,7 +13,7 @@ export function Details(props: DetailsProps) {
     <>
       <div className="flex flex-row items-center space-x-2">
         <MapPinIcon className="h-4 w-4" />
-        <span className="text-lg font-semibold">Details</span>
+        <span className="text-lg font-semibold">Detalles</span>
       </div>
       <div className="flex flex-col items-start ml-6 text-wrap">
         <span className="text-sm">{city}</span>

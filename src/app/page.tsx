@@ -13,12 +13,12 @@ import { Languages } from "./components/Languages";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center m-5">
-      <section className="w-full p-5 flex flex-row space-x-3" id="about">
+    <main className="flex flex-col items-center">
+      <section className="w-full flex flex-row space-x-3" id="about">
         <Profile {...userInfo.about} />
       </section>
       <section className="grid grid-cols-6 gap-4 w-full">
-        <div className="col-span-6 md:col-span-4 p-5 space-y-3">
+        <div className="col-span-6 sm:col-span-4 space-y-3">
           <CoverLetter>
             {userInfo.coverLetter.text}
           </CoverLetter>
@@ -27,7 +27,7 @@ export default function Home() {
           <Education {...userInfo.education.school}/>
           <Languages {...userInfo.language}/>
         </div>
-        <div className="col-span-6 md:col-span-2 p-5 space-y-3">
+        <div className="col-span-6 sm:col-span-2 space-y-3">
           <Details {...userInfo.details}/>
           <Skills skills={userInfo.skills} />
         </div>

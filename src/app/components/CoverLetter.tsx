@@ -10,9 +10,9 @@ export function CoverLetter(props: CoverLetterProps) {
     <>
       <div className="flex flex-row items-center space-x-2">
         <UserIcon className="h-4 w-4" />
-        <span className="text-lg font-semibold">Profile</span>
+        <span className="text-lg font-semibold">Perfil</span>
       </div>
-      <p className="text-xs w-2/3">{children}</p>
+      <p className="text-xs w-full">{children}</p>
     </>
   );
 }
