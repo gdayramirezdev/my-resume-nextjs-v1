@@ -9,7 +9,8 @@ export default {
     city: 'Mexico City',
     country: 'Mexico',
     phone: '+52 5571916683',
-    email: 'josegustavo.ramirez.dev@outlook.com'
+    email: 'josegustavo.ramirez.dev@outlook.com',
+    linkedin: 'https://www.linkedin.com/in/jose-gustavo-cruz-ramirez-dev',
   },
   coverLetter: {
     text: `
